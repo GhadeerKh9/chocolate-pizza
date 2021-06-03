@@ -2,6 +2,10 @@
     box-sizing: border-box;
     padding: 15px;
 }
+body{
+    width: 80%;
+    margin: auto;
+}
 span#logo ,span#text{
     display: inline-block;
 }
@@ -59,14 +63,30 @@ article#recipe {
     margin-top: 50px;
     height: 305px;
     width: 899px;
-    background-image: url(img/list-bg.png);
+    background-image: url(https://raw.githubusercontent.com/LTUC/amman-201d27/main/class-10/lab-a/lab-assets/list-bg.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
+ #right{
+    margin: 50px;
+    left: 40%;
+
+ }
+ #left{
+     margin:40px 100px 40px 60px ;
+     position: absolute;
+     left: 10%;
+ }
+ 
+ #right{
+     margin:40px 40px 40px 60px ;
+     right: 14%;
+     position: absolute;
+ }
+
 main hr {
-    border: 0;
-    background: url(img/hr-img.png);
+    background: url(https://github.com/LTUC/amman-201d27/blob/main/class-10/lab-a/lab-assets/hr-img.png);
     height: 30px;
     clear: both;
 }
@@ -77,19 +97,31 @@ article ul li{
 article p{
     text-indent: 30px;
 }
-button{
-    color: white;
-    background-color:rgb(133, 18, 18);
-    font-size: 20px;
-    float: right;
-    padding: 15px 30px;
+#vanessa {
+    width: 100%;
+    float: left;
+    position: relative;
 }
-#Vanessa {
+button{
+        position: relative;
+        background-color: #ab4141;
+        height: 50px;
+        right: 0%;
+        top: 0%;
+        width: 170px;
+}
+#Vanessa img {
     float: left;
 }
-#Vanessa img, #Vanessa h2, #Vanessa p {
+#Vanessa img, #Vanessa p {
     display: inline-block;
+    margin-top: 30px;
 }
+#Vanessa h2{
+    padding-top: 50px;
+}
+
+
 #Vanessa img {
     padding-right: 10px;
 }
@@ -101,20 +133,18 @@ footer {
     font-family: arial;
     line-height: 35px;
     color: rgb(167, 70, 91);
+        margin-top: 50px;
 }
-hr#sLogo {
-    content: url(img/small-logo.png);
-    box-sizing: content-box;
-    left: 50%;
-    top: -7px;
-    background-color: white;
-    position: absolute;
-    padding: 15px;
-    border: 0;
-    height: 30px;
-    display: block;
+#sLogo{
+    width: 48%;
+    display: inline-block;
 }
 footer hr {
     padding: 0px;
     margin: 35px auto;
+}
+#Logoimg {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
 }
