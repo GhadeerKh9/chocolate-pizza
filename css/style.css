@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    padding: 20px;
+    padding: 15px;
 }
 span#logo ,span#text{
     display: inline-block;
@@ -11,25 +11,110 @@ span#logo {
     padding: 10px;
     }
 
-span#images li{
+
+span#images {
         float: right;
-        margin-bottom: 35px;
-        padding :30px 10px 0px 0px;
+        padding :50px 10px 0px 0px;
+}
+img[src*="rss"] {
+    margin-left: 20px;
+}
+span#text h3 {
+        font-family:'Times New Roman', Times, serif
+        color: black;
+        font-size: 37px;
+        padding-top: 18px;
+}
+span#text h4 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+main hr {
+    padding: 20px;
+    border: 20;
+    background: url(img/hr-img.png);
+    height: 30px;
+    clear: both;
+}
+article h1 {
+    font-size: 36px;
+    font-family: impact;
+    padding-bottom: 10px;
+    color: black;
+}
+img[src*="cho"] {
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+}
+article p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 30px;
+    min-inline-size: 30px;
+}
+article#recipe {
+    clear: both;
+    overflow: auto;
+    margin-top: 50px;
+    height: 305px;
+    width: 899px;
+    background-image: url(img/list-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+main hr {
+    border: 0;
+    background: url(img/hr-img.png);
+    height: 30px;
+    clear: both;
+}
 article ul li{
     display: inline-block;
     float: right;
 }
 article p{
-    text-indent: 50px;
+    text-indent: 30px;
 }
 button{
     color: white;
     background-color:rgb(133, 18, 18);
-    display: inline-block;
+    font-size: 20px;
     float: right;
+    padding: 15px 30px;
 }
-main{
-    margin: 10px;
+#Vanessa {
+    float: left;
+}
+#Vanessa img, #Vanessa h2, #Vanessa p {
+    display: inline-block;
+}
+#Vanessa img {
+    padding-right: 10px;
+}
+footer {
+    clear: both;
+    position: relative;
+    text-align: center;
+    padding-top: 25px;
+    font-family: arial;
+    line-height: 35px;
+    color: rgb(167, 70, 91);
+}
+hr#sLogo {
+    content: url(img/small-logo.png);
+    box-sizing: content-box;
+    left: 50%;
+    top: -7px;
+    background-color: white;
+    position: absolute;
+    padding: 15px;
+    border: 0;
+    height: 30px;
+    display: block;
+}
+footer hr {
+    padding: 0px;
+    margin: 35px auto;
 }
