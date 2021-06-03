@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 20px;
+}
+span#logo ,span#text{
+    display: inline-block;
+}
+
+span#logo {
+    float: left;
+    padding: 10px;
+    }
+
+span#images li{
+        float: right;
+        margin-bottom: 35px;
+        padding :30px 10px 0px 0px;
+}
+
+article ul li{
+    display: inline-block;
+    float: right;
+}
+article p{
+    text-indent: 50px;
+}
+button{
+    color: white;
+    background-color:rgb(133, 18, 18);
+    display: inline-block;
+    float: right;
+}
+main{
+    margin: 10px;
+}
