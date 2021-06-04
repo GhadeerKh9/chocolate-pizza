@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    padding: 15px;
+    padding: 10px;
 }
 body{
     width: 80%;
@@ -35,8 +35,8 @@ span#text h4 {
 
 main hr {
     padding: 20px;
-    border: 20;
-    background: url(img/hr-img.png);
+    border: 20px;
+    background-image: url(img/hr-img.png);
     height: 30px;
     clear: both;
 }
@@ -85,11 +85,11 @@ article#recipe {
      position: absolute;
  }
 
-main hr {
+/* main hr {
     background: url(https://github.com/LTUC/amman-201d27/blob/main/class-10/lab-a/lab-assets/hr-img.png);
     height: 30px;
     clear: both;
-}
+} */
 article ul li{
     display: inline-block;
     float: right;
@@ -104,10 +104,11 @@ article p{
 }
 button{
         position: relative;
-        background-color: #ab4141;
+        background-color: #cf5b5b;
+        color: whitesmoke;
         height: 50px;
+        left: 75%;
         right: 0%;
-        top: 0%;
         width: 170px;
 }
 #Vanessa img {
@@ -115,12 +116,17 @@ button{
 }
 #Vanessa img, #Vanessa p {
     display: inline-block;
-    margin-top: 30px;
 }
 #Vanessa h2{
-    padding-top: 50px;
-}
-
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    font-size: 24px ;font-family:'Times New Roman', Times, serif; font-weight: bolder
+ } 
+ #Vanessa p{
+     padding-right: 40%;
+     color: rgb(90, 82, 82);
+ }
 
 #Vanessa img {
     padding-right: 10px;
@@ -129,22 +135,21 @@ footer {
     clear: both;
     position: relative;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 10px;
     font-family: arial;
-    line-height: 35px;
-    color: rgb(167, 70, 91);
+    line-height: 25px;
+    color: rgb(179, 176, 176);
         margin-top: 50px;
 }
-#sLogo{
+/* #sLogo{
     width: 48%;
     display: inline-block;
-}
+} */
 footer hr {
     padding: 0px;
-    margin: 35px auto;
 }
-#Logoimg {
+/* #Logoimg {
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
-}
+} */
